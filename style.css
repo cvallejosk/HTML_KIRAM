@@ -753,3 +753,15 @@ ul {
         font-size: 1.3em;
     }
 }
+
+
+
+.detalle-local-map iframe {
+    width: 100%; /* Makes the iframe take the full width of its container */
+    max-width: 100%; /* Ensures it doesn't exceed the container's width */
+    height: 450px; /* You can keep a fixed height, or adjust as needed.
+                      For a truly responsive height based on aspect ratio,
+                      more complex CSS (like the "padding-bottom hack") or JavaScript might be needed,
+                      but for many map embeds, a fixed height on mobile is acceptable. */
+    border: 0; /* Keeps your existing border style */
+}
