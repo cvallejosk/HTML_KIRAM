@@ -142,7 +142,7 @@ ul {
 .dropdown-details summary {
     color: var(--secondary-color);
     font-weight: bold;
-    padding: 0.6em 0.9em;
+    padding: 0.6em 0.10em;
     transition: color var(--transition-speed) ease;
     display: block;
     border-radius: 4px;
